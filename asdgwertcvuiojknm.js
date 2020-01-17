@@ -1,7 +1,7 @@
 Hints.characters = 'asdgwertcvuiojknm';
 
 // 映射
-imap('jj', "<Esc>");  // 按两次j退出当前输入框。
+imap('jj', "<Esc>");  // 按两次j退出当前输入框
 
 // Vimium-C 映射
 //map('O', 't')
