@@ -68,7 +68,7 @@ settings.theme = `
 `;
 
  // J/K 向下/上滚动一页(源自dslztx@gmail.com)
-//mapkey('J', '#2Scroll a page down', Normal.scroll.bind(Normal, "pageDown"), {repeatIgnore: true});
-//mapkey('K', '#2Scroll a page up', Normal.scroll.bind(Normal, "pageUp"), {repeatIgnore: true});
-mapkey('J', '#2Scroll a page down', scrollNode.skScrollBy(0, Math.round(size[1] / 2)), {repeatIgnore: true});
-mapkey('K', '#2Scroll a page up', scrollNode.skScrollBy(0, -Math.round(size[1] / 2)), {repeatIgnore: true});
+mapkey('J', '#2Scroll a page down', Normal.scroll.bind(Normal, "pageDown"), {repeatIgnore: true});
+mapkey('K', '#2Scroll a page up', Normal.scroll.bind(Normal, "pageUp"), {repeatIgnore: true});
+//mapkey('J', '#2Scroll a page down', scrollNode.skScrollBy(0, Math.round(size[1] / 2)), {repeatIgnore: true});
+//mapkey('K', '#2Scroll a page up', scrollNode.skScrollBy(0, -Math.round(size[1] / 2)), {repeatIgnore: true});
