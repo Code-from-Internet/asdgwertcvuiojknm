@@ -13,12 +13,10 @@ map('gi', 'i');
 map('F', 'gf');
 map('gf', 'w');
 map('`', '\'');
-// save default key `t` to temp key `>_t`
-map('>_t', 't');
-// create a new key `t` for default key `on`
-map('t', 'on');
-// create a new key `o` for saved temp key `>_t`
-map('o', '>_t');
+map('>_t', 't');  // save default key `t` to temp key `>_t`
+map('t', 'on');  // create a new key `t` for default key `on`
+map('o', '>_t');  // create a new key `o` for saved temp key `>_t`
+map('>_S', 'S');
 map('H', 'S');
 map('L', 'D');
 map('gt', 'R');
@@ -74,9 +72,14 @@ mapkey(',z', '#120Open 人人影视字幕组', function () {
 mapkey(',e', '#120Open Chrome Extensions', function () {
     tabOpenLink("chrome://extensions/");
 });
+mapkey(',w', '#120Open wikiHow', function () {
+    tabOpenLink("https://zh.wikihow.com/");
+});
+// https://zh.wikihow.com/wikiHowTo?search=%s
 
 
 // 注册内联查询
+mapkey('q', )
 Front.registerInlineQuery({
     url: "https://api.shanbay.com/bdc/search/?word=",
     parseResult: function(res) {
