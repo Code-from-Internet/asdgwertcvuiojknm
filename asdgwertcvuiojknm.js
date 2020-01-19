@@ -16,7 +16,7 @@ map('gf', 'w');
 map('`', '\'');
 map('>_t', 't');  // save default key `t` to temp key `>_t`
 map('t', 'on');  // create a new key `t` for default key `on`
-map('Oo', '>_t');  // create a new key `O` for saved temp key `>_t`
+map('oO', '>_t');  // create a new key `O` for saved temp key `>_t`
 map('oo', 'go');
 map('>_S', 'S');
 map('H', 'S');
