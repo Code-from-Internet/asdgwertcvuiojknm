@@ -3,6 +3,7 @@ Hints.characters = 'asdgwertcvuiojknm';
 
 // Settings with key mappings like vimium
 map('u', 'e');
+unmap('e');
 mapkey('p', "Open the clipboard's URL in the current tab", function() {
     Front.getContentFromClipboard(function(response) {
         window.location.href = response.data;
@@ -79,7 +80,7 @@ mapkey(',w', '#120Open wikiHow', function () {
 
 
 // 注册内联查询
-mapkey('q', )
+// mapkey('q', );  // 不会写，闲置
 Front.registerInlineQuery({
     url: "https://api.shanbay.com/bdc/search/?word=",
     parseResult: function(res) {
