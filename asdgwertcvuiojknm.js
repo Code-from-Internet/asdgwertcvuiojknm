@@ -114,6 +114,7 @@ mapkey('qq', "Open the clipboard's URL in the current tab", function() {
         }
     });
 });
+
 Front.registerInlineQuery({
     url: "https://api.shanbay.com/bdc/search/?word=",
     parseResult: function(res) {
