@@ -3,7 +3,6 @@ Hints.characters = 'asdgwertcvuiojknm';
 
 // Settings with key mappings like vimium
 map('u', 'e');
-unmap('e');
 mapkey('p', "Open the clipboard's URL in the current tab", function() {
     Front.getContentFromClipboard(function(response) {
         window.location.href = response.data;
@@ -169,3 +168,10 @@ settings.theme = `
     color: #12abcd;
 }
 `;
+
+[
+    'go', 'gg', 'google'
+].forEach(k => addSearchAliasX('g', 'google', 'https://www.google.com/search?q=', 's', 'https://www.google.com/complete/search?client=chrome-omni&gs_ri=chrome-ext&oit=1&cp=1&pgcl=7&q=', function(response) {
+    var res = JSON.parse(response.text);
+    return res[1];
+}));
