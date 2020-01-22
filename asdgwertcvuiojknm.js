@@ -44,23 +44,17 @@ mapkey(',', '#120Open ', function () {
     tabOpenLink("");
 });
 */
-mapkey(',y', '#120Open YouTube', function () {
-    tabOpenLink("https://www.youtube.com/");
+mapkey(',a', '#120Open Acfun', function () {
+    tabOpenLink("https://www.acfun.cn/u/4075269.aspx");
 });
 mapkey(',b', '#120Open bilibili', function () {
     tabOpenLink("https://www.bilibili.com/");
 });
-mapkey(',a', '#120Open Acfun', function () {
-    tabOpenLink("https://www.acfun.cn/u/4075269.aspx");
+mapkey(',e', '#120Open Chrome Extensions', function () {
+    tabOpenLink("chrome://extensions/");
 });
 mapkey(',g', '#120Open GitHub', function () {
     tabOpenLink("https://www.github.com/");
-});
-mapkey(',q', '#120Open QQ邮箱', function () {
-    tabOpenLink("https://mail.qq.com/");
-});
-mapkey(',qm', '#120Open QQ邮箱', function () {
-    tabOpenLink("https://mail.qq.com/");
 });
 mapkey(',i', '#120Open 查Ip', function () {
     tabOpenLink("https://whoer.net/zh");
@@ -68,14 +62,17 @@ mapkey(',i', '#120Open 查Ip', function () {
 mapkey(',n', '#120Open 有道云笔记', function () {
     tabOpenLink("https://note.youdao.com/web/");
 });
-mapkey(',z', '#120Open 人人影视字幕组', function () {
-    tabOpenLink("http://www.zmz2019.com/");
-});
-mapkey(',e', '#120Open Chrome Extensions', function () {
-    tabOpenLink("chrome://extensions/");
+mapkey(',q', '#120Open QQ邮箱', function () {
+    tabOpenLink("https://mail.qq.com/");
 });
 mapkey(',w', '#120Open wikiHow', function () {
     tabOpenLink("https://zh.wikihow.com/");
+});
+mapkey(',y', '#120Open YouTube', function () {
+    tabOpenLink("https://www.youtube.com/");
+});
+mapkey(',z', '#120Open 人人影视字幕组', function () {
+    tabOpenLink("http://www.zmz2019.com/");
 });
 // https://zh.wikihow.com/wikiHowTo?search=%s
 
