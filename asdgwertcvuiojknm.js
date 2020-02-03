@@ -62,6 +62,9 @@ mapkey(',i', '#120Open 查Ip', function () {
 mapkey(',n', '#120Open 有道云笔记', function () {
     tabOpenLink("https://note.youdao.com/web/");
 });
+mapkey(',p', '#120Open ProtonMail', function () {
+    tabOpenLink("https://protonmail.com/");
+});
 mapkey(',q', '#120Open QQ邮箱', function () {
     tabOpenLink("https://mail.qq.com/");
 });
