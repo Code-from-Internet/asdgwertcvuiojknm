@@ -75,7 +75,7 @@ mapkey(',y', '#120Open YouTube', function () {
     tabOpenLink("https://www.youtube.com/");
 });
 mapkey(',z', '#120Open 人人影视字幕组', function () {
-    tabOpenLink("http://www.rrys2019.com/");
+    tabOpenLink("http://www.rrys2020.com/");
 });
 // https://zh.wikihow.com/wikiHowTo?search=%s
 
