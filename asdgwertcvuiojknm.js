@@ -65,8 +65,11 @@ mapkey(',n', '#120Open 有道云笔记', function () {
 mapkey(',p', '#120Open ProtonMail', function () {
     tabOpenLink("https://protonmail.com/");
 });
-mapkey(',q', '#120Open QQ邮箱', function () {
+mapkey(',qq', '#120Open QQ邮箱', function () {
     tabOpenLink("https://mail.qq.com/");
+});
+mapkey(',qw', '#120Open 微信网页版', function () {
+    tabOpenLink("https://wx.qq.com/");
 });
 mapkey(',w', '#120Open wikiHow', function () {
     tabOpenLink("https://zh.wikihow.com/");
@@ -77,14 +80,11 @@ mapkey(',y', '#120Open YouTube', function () {
 mapkey(',za', '#120Open 人人影视字幕组', function () {
     tabOpenLink("http://www.rrys2020.com/");
 });
-mapkey(',zb', '#120Open 人影视字幕组', function () {
-    tabOpenLink("https://zh.wikihow.com/wikiHowTo?search=%s");
-});
 // https://zh.wikihow.com/wikiHowTo?search=%s
 
 
 // 注册内联查询
-// mapkey('q', );  // 不会写，闲置
+// mapkey('q', );   // 不会写，闲置
 mapkey('qq', "Open the clipboard's URL in the current tab", function() {
     Front.registerInlineQuery({
         url: "https://api.shanbay.com/bdc/search/?word=",
@@ -208,3 +208,5 @@ settings.theme = `
     color: #12abcd;
 }
 `;
+
+// asdgwertcvuiojk
