@@ -208,5 +208,3 @@ settings.theme = `
     color: #12abcd;
 }
 `;
-
-// asdgwertcvuiojk
