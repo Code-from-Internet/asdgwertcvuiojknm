@@ -56,6 +56,9 @@ mapkey(',e', '#120Open Chrome Extensions', function () {
 mapkey(',g', '#120Open GitHub', function () {
     tabOpenLink("https://www.github.com/");
 });
+mapkey(',h', '#120Open 海兔影院', function () {
+    tabOpenLink("http://www.haitum.com/");
+});
 mapkey(',i', '#120Open 查Ip', function () {
     tabOpenLink("https://whoer.net/zh");
 });
@@ -81,7 +84,6 @@ mapkey(',za', '#120Open 人人影视字幕组', function () {
     tabOpenLink("http://www.rrys2020.com/");
 });
 // https://zh.wikihow.com/wikiHowTo?search=%s
-
 
 // 注册内联查询
 // mapkey('q', );   // 不会写，闲置
