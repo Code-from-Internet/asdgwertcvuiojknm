@@ -62,6 +62,9 @@ mapkey(',h', '#120Open 海兔影院', function () {
 mapkey(',i', '#120Open 查Ip', function () {
     tabOpenLink("https://whoer.net/zh");
 });
+mapkey(',m', '#120Open mattkaydiary', function () {
+    tabOpenLink("https://www.mattkaydiary.com/");
+});
 mapkey(',n', '#120Open 有道云笔记', function () {
     tabOpenLink("https://note.youdao.com/web/");
 });
