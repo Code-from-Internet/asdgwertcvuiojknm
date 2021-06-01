@@ -86,6 +86,9 @@ mapkey(',y', '#120Open YouTube', function () {
 mapkey(',za', '#120Open 人人影视字幕组', function () {
     tabOpenLink("http://www.rrys2020.com/");
 });
+mapkey(',zj', '#120Open 91美剧网', function () {
+    tabOpenLink("https://91mjw.com/");
+});
 // https://zh.wikihow.com/wikiHowTo?search=%s
 
 // 注册内联查询
