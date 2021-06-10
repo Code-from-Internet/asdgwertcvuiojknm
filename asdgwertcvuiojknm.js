@@ -152,7 +152,7 @@ Front.registerInlineQuery({
                     var sense = res.data.en_definitions[lex].map(function(s) {
                         return `<li>${s}</li>`;
                     }).join("");
-                    exp += `<div>${lex}</div><ul>${sense}</ul>`;
+                    exp += `<div>${lex}</div><ul>${sense}</ul`;
                 }
             }
             return exp;
@@ -202,6 +202,9 @@ settings.theme = `
 }  // Example of ACE editor theming 】
 #sk_omnibar {
     opacity: 0.91;  // Omnibar 透明化
+}
+#sk_keystroke .annottation {
+    color: blue;
 }
 .sk_theme {
     font-family: Input Sans Condensed, Charcoal, sans-serif;
