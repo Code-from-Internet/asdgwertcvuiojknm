@@ -1,5 +1,5 @@
 Hints.characters = 'asdgwertcvuionm';
-Hints.scrollKeys = "0jkhlG$";
+Hints.scrollKeys = '0jkhlG$';
 settings.startToShowEmoji = 0;
 
 
