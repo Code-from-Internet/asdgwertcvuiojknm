@@ -203,9 +203,6 @@ settings.theme = `
 #sk_omnibar {
     opacity: 0.91;  // Omnibar 透明化
 }
-#sk_keystroke .annottation {
-    color: blue;
-}
 .sk_theme {
     font-family: Input Sans Condensed, Charcoal, sans-serif;
     font-size: 10pt;
