@@ -90,6 +90,12 @@ mapkey(',za', '#120Open 人人影视字幕组', function () {
 mapkey(',zj', '#120Open 91美剧网', function () {
     tabOpenLink("https://91mjw.com/");
 });
+mapkey(',zn', '#120Open 耐卡网', function () {
+    tabOpenLink("https://mcar.vip/");
+});
+mapkey(',zs', '#120Open 深影字幕组', function () {
+    tabOpenLink("https://forum.shinybbs.vip/");
+});
 // https://zh.wikihow.com/wikiHowTo?search=%s
 
 // 注册内联查询
