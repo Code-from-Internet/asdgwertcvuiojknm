@@ -85,7 +85,7 @@ mapkey(',y', '#120Open YouTube', function () {
     tabOpenLink("https://www.youtube.com/");
 });
 mapkey(',za', '#120Open 人人影视字幕组', function () {
-    tabOpenLink("http://www.rrys2020.com/");
+    tabOpenLink("http://yysub.net/");
 });
 mapkey(',zj', '#120Open 91美剧网', function () {
     tabOpenLink("https://91mjw.com/");
