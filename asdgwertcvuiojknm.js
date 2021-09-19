@@ -3,7 +3,7 @@ Hints.scrollKeys = '0jkhlG$';
 settings.startToShowEmoji = 0;
 
 
-// Settings with key mappings like vimium.
+// Settings with key mappings like vimium
 map('u', 'e');
 mapkey('p', "Open the clipboard's URL in the current tab", function() {
     Front.getContentFromClipboard(function(response) {
