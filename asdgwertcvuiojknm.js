@@ -54,6 +54,9 @@ mapkey(',b', '#120Open bilibili', function () {
 mapkey(',e', '#120Open Chrome Extensions', function () {
     tabOpenLink("chrome://extensions/");
 });
+mapkey(',f', '#120Open FeHelper', function () {
+    tabOpenLink("https://www.baidufe.com/fehelper/index/index.html");
+});
 mapkey(',g', '#120Open GitHub', function () {
     tabOpenLink("https://www.github.com/");
 });
