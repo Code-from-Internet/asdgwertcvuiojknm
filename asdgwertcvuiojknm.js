@@ -93,6 +93,9 @@ mapkey(',za', '#120Open 人人影视字幕组', function () {
 mapkey(',zj', '#120Open 91美剧网', function () {
     tabOpenLink("https://91mjw.com/");
 });
+mapkey(',zm', '#120Open 在线电影网站', function () {
+    tabOpenLink("https://github.com/pojiezhiyuanjun/freemovie/wiki");
+});
 mapkey(',zn', '#120Open 耐卡网', function () {
     tabOpenLink("https://mcar.vip/");
 });
