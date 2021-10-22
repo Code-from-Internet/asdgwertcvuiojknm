@@ -1,4 +1,4 @@
-Hints.characters = 'asdgwertcvuionm'; // nothxxx
+Hints.characters = 'asdgwertcvuionm';
 Hints.scrollKeys = '0jkhlG$';
 settings.startToShowEmoji = 0;
 
@@ -101,6 +101,9 @@ mapkey(',zn', '#120Open 耐卡网', function () {
 });
 mapkey(',zs', '#120Open 深影字幕组', function () {
     tabOpenLink("https://forum.shinybbs.vip/");
+});
+mapkey(',zw', '#120Open 债务监测系统', function () {
+    tabOpenLink("http://lfpt.mof.gov.cn/");
 });
 // https://zh.wikihow.com/wikiHowTo?search=%s
 
