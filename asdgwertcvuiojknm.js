@@ -1,4 +1,4 @@
-Hints.characters = 'asdgwertcvuionm'; // nothxx
+Hints.characters = 'asdgwertcvuionm'; // nothxxx
 Hints.scrollKeys = '0jkhlG$';
 settings.startToShowEmoji = 0;
 
