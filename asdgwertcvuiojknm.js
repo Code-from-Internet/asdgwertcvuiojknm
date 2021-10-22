@@ -45,6 +45,9 @@ mapkey(',', '#120Open ', function () {
     tabOpenLink("");
 });
 */
+mapkey(',52', '#120Open 52哇哈', function () {
+    tabOpenLink("https://bbs.52waha.com/");
+});
 mapkey(',a', '#120Open Acfun', function () {
     tabOpenLink("https://www.acfun.cn/u/4075269.aspx");
 });
