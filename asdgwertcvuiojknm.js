@@ -45,9 +45,6 @@ mapkey(',', '#120Open ', function () {
     tabOpenLink("");
 });
 */
-mapkey(',52', '#120Open 52哇哈', function () {
-    tabOpenLink("https://bbs.52waha.com/");
-});
 mapkey(',a', '#120Open Acfun', function () {
     tabOpenLink("https://www.acfun.cn/u/4075269.aspx");
 });
@@ -84,7 +81,10 @@ mapkey(',qq', '#120Open QQ邮箱', function () {
 mapkey(',qw', '#120Open 微信网页版', function () {
     tabOpenLink("https://wx.qq.com/");
 });
-mapkey(',w', '#120Open wikiHow', function () {
+mapkey(',wh', '#120Open 52哇哈', function () {
+    tabOpenLink("https://bbs.52waha.com/");
+});
+mapkey(',wk', '#120Open wikiHow', function () {
     tabOpenLink("https://zh.wikihow.com/");
 });
 mapkey(',y', '#120Open YouTube', function () {
