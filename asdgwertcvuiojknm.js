@@ -87,6 +87,9 @@ mapkey(',wh', '#120Open 52哇哈', function () {
 mapkey(',wk', '#120Open wikiHow', function () {
     tabOpenLink("https://zh.wikihow.com/");
 });
+mapkey(',xq', '#120Open 天天象棋网页版', function () {
+    tabOpenLink("https://h5login.qqchess.qq.com/");
+});
 mapkey(',y', '#120Open YouTube', function () {
     tabOpenLink("https://www.youtube.com/");
 });
