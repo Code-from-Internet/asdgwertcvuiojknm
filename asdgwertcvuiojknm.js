@@ -96,6 +96,9 @@ mapkey(',y', '#120Open YouTube', function () {
 mapkey(',za', '#120Open 人人影视字幕组', function () {
     tabOpenLink("http://yysub.net/");
 });
+mapkey(',zc', '#120Open 国有资产系统', function () {
+    tabOpenLink("https://zc.czt.gd.gov.cn/index.html");
+});
 mapkey(',zj', '#120Open 91美剧网', function () {
     tabOpenLink("https://91mjw.com/");
 });
