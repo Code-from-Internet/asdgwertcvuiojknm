@@ -93,6 +93,9 @@ mapkey(',wk', '#120Open wikiHow', function () {
 mapkey(',xq', '#120Open 天天象棋网页版', function () {
     tabOpenLink("https://h5login.qqchess.qq.com/");
 });
+mapkey(',xw', '#120Open 新闻简讯', function () {
+    tabOpenLink("https://cloud.gd.gov.cn/login#/");
+});
 mapkey(',y', '#120Open YouTube', function () {
     tabOpenLink("https://www.youtube.com/");
 });
