@@ -65,83 +65,83 @@ unmapAllExcept(['E','R','T'], /gmail.com|twitter.com/);
 // #快捷键访问指定网站
 /* 模板
 mapkey(',', '#120Open ', function () {
-    tabOpenLink("");
+    api.tabOpenLink("");
 });
 */
 mapkey(',a', '#120Open Acfun', function () {
-    tabOpenLink("https://www.acfun.cn/u/4075269.aspx");
+    api.tabOpenLink("https://www.acfun.cn/u/4075269.aspx");
 });
 mapkey(',b', '#120Open bilibili', function () {
-    tabOpenLink("https://www.bilibili.com/");
+    api.tabOpenLink("https://www.bilibili.com/");
 });
 mapkey(',e', '#120Open Chrome Extensions', function () {
-    tabOpenLink("chrome://extensions/");
+    api.tabOpenLink("chrome://extensions/");
 });
 mapkey(',f', '#120Open FeHelper', function () {
-    tabOpenLink("https://www.baidufe.com/fehelper/index/index.html");
+    api.tabOpenLink("https://www.baidufe.com/fehelper/index/index.html");
 });
 mapkey(',gh', '#120Open GitHub', function () {
-    tabOpenLink("https://www.github.com/");
+    api.tabOpenLink("https://www.github.com/");
 });
 mapkey(',gc', '#120Open 公务用车管理平台', function () {
-    tabOpenLink("https://210.76.80.148/");
+    api.tabOpenLink("https://210.76.80.148/");
 });
 mapkey(',h', '#120Open 海兔影院', function () {
-    tabOpenLink("http://www.haitum.com/");
+    api.tabOpenLink("http://www.haitum.com/");
 });
 mapkey(',i', '#120Open 查Ip', function () {
-    tabOpenLink("https://whoer.net/zh");
+    api.tabOpenLink("https://whoer.net/zh");
 });
 mapkey(',m', '#120Open mattkaydiary', function () {
-    tabOpenLink("https://www.mattkaydiary.com/");
+    api.tabOpenLink("https://www.mattkaydiary.com/");
 });
 mapkey(',n', '#120Open 有道云笔记', function () {
-    tabOpenLink("https://note.youdao.com/web/");
+    api.tabOpenLink("https://note.youdao.com/web/");
 });
 mapkey(',p', '#120Open ProtonMail', function () {
-    tabOpenLink("https://protonmail.com/");
+    api.tabOpenLink("https://protonmail.com/");
 });
 mapkey(',qq', '#120Open QQ邮箱', function () {
-    tabOpenLink("https://mail.qq.com/");
+    api.tabOpenLink("https://mail.qq.com/");
 });
 mapkey(',qw', '#120Open 微信网页版', function () {
-    tabOpenLink("https://wx.qq.com/");
+    api.tabOpenLink("https://wx.qq.com/");
 });
 mapkey(',wh', '#120Open 52哇哈', function () {
-    tabOpenLink("https://bbs.52waha.com/");
+    api.tabOpenLink("https://bbs.52waha.com/");
 });
 mapkey(',wk', '#120Open wikiHow', function () {
-    tabOpenLink("https://zh.wikihow.com/");
+    api.tabOpenLink("https://zh.wikihow.com/");
 });
 mapkey(',xq', '#120Open 天天象棋网页版', function () {
-    tabOpenLink("https://h5login.qqchess.qq.com/");
+    api.tabOpenLink("https://h5login.qqchess.qq.com/");
 });
 mapkey(',xw', '#120Open 新闻简讯', function () {
-    tabOpenLink("https://cloud.gd.gov.cn/login#/");
+    api.tabOpenLink("https://cloud.gd.gov.cn/login#/");
 });
 mapkey(',y', '#120Open YouTube', function () {
-    tabOpenLink("https://www.youtube.com/");
+    api.tabOpenLink("https://www.youtube.com/");
 });
 mapkey(',za', '#120Open 人人影视字幕组', function () {
-    tabOpenLink("http://yysub.net/");
+    api.tabOpenLink("http://yysub.net/");
 });
 mapkey(',zc', '#120Open 国有资产系统', function () {
-    tabOpenLink("https://zc.czt.gd.gov.cn/index.html");
+    api.tabOpenLink("https://zc.czt.gd.gov.cn/index.html");
 });
 mapkey(',zj', '#120Open 91美剧网', function () {
-    tabOpenLink("https://91mjw.com/");
+    api.tabOpenLink("https://91mjw.com/");
 });
 mapkey(',zm', '#120Open 在线电影网站', function () {
-    tabOpenLink("https://github.com/pojiezhiyuanjun/freemovie/wiki");
+    api.tabOpenLink("https://github.com/pojiezhiyuanjun/freemovie/wiki");
 });
 mapkey(',zn', '#120Open 耐卡网', function () {
-    tabOpenLink("https://mcar.vip/");
+    api.tabOpenLink("https://mcar.vip/");
 });
 mapkey(',zs', '#120Open 深影字幕组', function () {
-    tabOpenLink("https://forum.shinybbs.vip/");
+    api.tabOpenLink("https://forum.shinybbs.vip/");
 });
 mapkey(',zw', '#120Open 债务监测系统', function () {
-    tabOpenLink("http://lfpt.mof.gov.cn/");
+    api.tabOpenLink("http://lfpt.mof.gov.cn/");
 });
 // https://zh.wikihow.com/wikiHowTo?search=%s
 
