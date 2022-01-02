@@ -21,7 +21,7 @@ const {
 } = api;
 
 // Hints.characters = 'asdgwertcvuionm'; 从 1.0.2 开始，Hints.characters = "abcd";被替换为Hints.setCharacters("abcd");
-Hints.characters = ('asdgwertcvuionm');
+Hints.characters = ("asdgwertcvuionm");
 Hints.scrollKeys = '0jkhlG$';
 settings.startToShowEmoji = 0;
 
