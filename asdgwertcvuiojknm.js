@@ -80,8 +80,11 @@ mapkey(',e', '#120Open Chrome Extensions', function () {
 mapkey(',f', '#120Open FeHelper', function () {
     tabOpenLink("https://www.baidufe.com/fehelper/index/index.html");
 });
-mapkey(',g', '#120Open GitHub', function () {
+mapkey(',gh', '#120Open GitHub', function () {
     tabOpenLink("https://www.github.com/");
+});
+mapkey(',gc', '#120Open 公务用车管理平台', function () {
+    tabOpenLink("https://210.76.80.148/");
 });
 mapkey(',h', '#120Open 海兔影院', function () {
     tabOpenLink("http://www.haitum.com/");
@@ -112,6 +115,9 @@ mapkey(',wk', '#120Open wikiHow', function () {
 });
 mapkey(',xq', '#120Open 天天象棋网页版', function () {
     tabOpenLink("https://h5login.qqchess.qq.com/");
+});
+mapkey(',xw', '#120Open 新闻简讯', function () {
+    tabOpenLink("https://cloud.gd.gov.cn/login#/");
 });
 mapkey(',y', '#120Open YouTube', function () {
     tabOpenLink("https://www.youtube.com/");
