@@ -21,7 +21,7 @@ const {
 } = api;
 
 // Hints.characters = 'asdgwertcvuionm'; 从 1.0.2 开始，Hints.characters = "abcd";被替换为Hints.setCharacters("abcd");
-Hints.characters = ("asdgwertcvuionm");
+Hints.setCharacters = ("asdgwertcvuionm");
 Hints.scrollKeys = '0jkhlG$';
 settings.startToShowEmoji = 0;
 
@@ -59,7 +59,7 @@ imap('jj', "<Esc>");  // 按两次j退出当前输入框
 //map('F', 'gf')
 
 // 在gmail.com、twitter.com只保留 E、R和T
-unmapAllExcept(['E','R','T'], /gmail.com|twitter.com/);
+api.unmapAllExcept(['E','R','T'], /gmail.com|twitter.com/);
 
 
 // #快捷键访问指定网站
