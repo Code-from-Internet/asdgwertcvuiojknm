@@ -81,7 +81,7 @@ mapkey(',fh', '#120Open FeHelper', function () {
     api.tabOpenLink("https://www.baidufe.com/fehelper/index/index.html");
 });
 mapkey(',fq', '#120Open 有道云笔记分享', function () {
-    api.tabOpenLink("https://note.youdao.com/s/ZKn5yW1p");
+    api.tabOpenLink("https://note.youdao.com/s/dTdNWA9P");
 });
 mapkey(',gh', '#120Open GitHub', function () {
     api.tabOpenLink("https://www.github.com/");
