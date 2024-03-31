@@ -87,7 +87,7 @@ mapkey(',gh', '#120Open GitHub', function () {
     api.tabOpenLink("https://www.github.com/");
 });
 mapkey(',gc', '#120Open 公务用车管理平台', function () {
-    api.tabOpenLink("https://210.76.80.148/");
+    api.tabOpenLink("https://jgsw.gd.gov.cn/gcglpt/");
 });
 mapkey(',h', '#120Open 海兔影院', function () {
     api.tabOpenLink("http://www.haitum.com/");
