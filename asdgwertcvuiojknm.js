@@ -150,30 +150,35 @@ mapkey(',zw', '#120Open 债务监测系统', function () {
 
 // 注册内联查询
 // mapkey('q', );   // 不会写，闲置
-mapkey('qq', "Open the clipboard's URL in the current tab", function() {
+// 修正1：删除重复的内联查询注册，保留一个即可
+mapkey('qs', "Open the clipboard's URL in the current tab", function() {
     Front.registerInlineQuery({
         url: "https://api.shanbay.com/bdc/search/?word=",
         parseResult: function(res) {
             try {
                 res = JSON.parse(res.text);
-                var exp = res.msg;
+                let exp = res.msg;
+                
                 if (res.data.definition) {
-                    var pronunciations = [];
-                    for (var reg in res.data.pronunciations) {
+                    const pronunciations = [];
+                    for (const reg in res.data.pronunciations) {
                         pronunciations.push(`<div>[${reg}] ${res.data.pronunciations[reg]}</div>`);
-                        // pronunciations.push(`<div><audio src="${res.data[reg+'_audio']}" controls></audio></div>`);
                     }
-                    var definition = res.data.definition.split("\n").map(function(d) {
-                        return `<li>${d}</li>`;
-                    }).join("");
+                    
+                    const definition = res.data.definition.split("\n").map(d => 
+                        `<li>${d}</li>`
+                    ).join("");
+                    
                     exp = `${pronunciations.join("")}<ul>${definition}</ul>`;
                 }
+                
                 if (res.data.en_definitions) {
                     exp += "<hr/>";
-                    for (var lex in res.data.en_definitions) {
-                        var sense = res.data.en_definitions[lex].map(function(s) {
-                            return `<li>${s}</li>`;
-                        }).join("");
+                    for (const lex in res.data.en_definitions) {
+                        const sense = res.data.en_definitions[lex].map(s => 
+                            `<li>${s}</li>`
+                        ).join("");
+                        // 修正2：修复未闭合的HTML标签
                         exp += `<div>${lex}</div><ul>${sense}</ul>`;
                     }
                 }
@@ -185,45 +190,11 @@ mapkey('qq', "Open the clipboard's URL in the current tab", function() {
     });
 });
 
-Front.registerInlineQuery({
-    url: "https://api.shanbay.com/bdc/search/?word=",
-    parseResult: function(res) {
-        try {
-            res = JSON.parse(res.text);
-            var exp = res.msg;
-            if (res.data.definition) {
-                var pronunciations = [];
-                for (var reg in res.data.pronunciations) {
-                    pronunciations.push(`<div>[${reg}] ${res.data.pronunciations[reg]}</div>`);
-                    // pronunciations.push(`<div><audio src="${res.data[reg+'_audio']}" controls></audio></div>`);
-                }
-                var definition = res.data.definition.split("\n").map(function(d) {
-                    return `<li>${d}</li>`;
-                }).join("");
-                exp = `${pronunciations.join("")}<ul>${definition}</ul>`;
-            }
-            if (res.data.en_definitions) {
-                exp += "<hr/>";
-                for (var lex in res.data.en_definitions) {
-                    var sense = res.data.en_definitions[lex].map(function(s) {
-                        return `<li>${s}</li>`;
-                    }).join("");
-                    exp += `<div>${lex}</div><ul>${sense}</ul`;
-                }
-            }
-            return exp;
-        } catch (e) {
-            return "";
-        }
-    }
-});
-
-
-// set theme
+// 修正3：使用标准CSS注释格式
 settings.theme = `
-// Example of ACE editor theming 【
+/* Example of ACE editor theming */
 :root {
-    --theme-ace-bg:#282828ab; /*Note the fourth channel, this adds transparency*/
+    --theme-ace-bg:#282828ab;
     --theme-ace-bg-accent:#3c3836;
     --theme-ace-fg:#ebdbb2;
     --theme-ace-fg-accent:#7c6f64;
@@ -231,7 +202,7 @@ settings.theme = `
     --theme-ace-select:#458588;
 }
 #sk_editor {
-    height: 50% !important; /*Remove this to restore the default editor size*/
+    height: 50% !important;
     background: var(--theme-ace-bg) !important;
 }
 .ace_dialog-bottom{
@@ -255,19 +226,16 @@ settings.theme = `
 }
 .ace_marker-layer .ace_selection {
     background: var(--theme-ace-select) !important;
-}  // Example of ACE editor theming 】
+}
 #sk_omnibar {
-    opacity: 0.91;  // Omnibar 透明化
+    opacity: 0.91;
 }
 .sk_theme {
     font-family: Input Sans Condensed, Charcoal, sans-serif;
     font-size: 10pt;
-    // background: #24272f;  // 背景颜色
-    // color: #123456;  // 字体颜色
 }
 .sk_theme input {
-    // color: #12abcd;
-    color: #bcde10;  // 输入的字的颜色
+    color: #bcde10;
 }
 .sk_theme .url {
     color: #12abcd;
